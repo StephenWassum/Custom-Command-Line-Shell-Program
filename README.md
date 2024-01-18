@@ -2,7 +2,7 @@
 
 ## Running the Program
 
-To run this program open an terminal at the location of this README file and other files within this folder.
+To run this program open an terminal at the location of mysh.c and other files within this folder.
 If the program is contained in a tar file, open this first. Once open run the make command in the terminal.
 The Makefile will compile mysh.c. Then use the command ./mysh to run the program in interactive mode or use
 the command ./mysh with a txt file as argument ./mysh argument.txt to open in batch mode.
