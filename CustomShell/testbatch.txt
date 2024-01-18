@@ -1,0 +1,33 @@
+ls
+echo Whats up?
+date
+
+cd testdirectory
+ls 
+pwd
+cd ..
+ls
+pwd
+which lswhich ls
+
+cat < testfile.txt
+echo "Redirection Test" > redirectiontest.txt
+sort < testfile.txt > redirectiontest.txt
+
+ls *
+ls *.txt
+ls testdirectory/*.txt
+ls *testfile.txt
+ls testfile.txt*
+ls tes*le.txt
+
+ls | sort
+cat testfile.txt | grep Stephen
+ls -l | sort -k5 -n > sortfilenames.txt
+
+echo Whats up?
+then echo Test Succesful
+echo Whats up?
+then echo Test Failed
+cd testwillfail
+then echo Test Failed
